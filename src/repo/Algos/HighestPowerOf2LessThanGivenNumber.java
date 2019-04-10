@@ -1,4 +1,4 @@
-package com.company.Algos;
+package repo.Algos;
 
 public class HighestPowerOf2LessThanGivenNumber {
 
