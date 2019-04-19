@@ -1,9 +1,7 @@
 package repo;
 
 
-import repo.Algos.CheckStringRotation;
-import repo.Algos.CountTotalSetBits;
-import repo.Algos.NearestSmallerNumbers;
+import repo.Algos.*;
 import repo.DS.Array.BasicArray;
 
 public class Main {
@@ -18,8 +16,10 @@ public class Main {
 //        CountTotalSetBits.Exercise.Run(6);
 //        HighestPowerOf2LessThanGivenNumber.Exercise.Run(10);
 //        CheckStringRotation.Exercise.Run("amazon", "azonam");
-
-        NearestSmallerNumbers.Execercise.Run(new int[]{1, 6, 4, 10, 2, 5}, 6);
+//        NearestSmallerNumbers.Exercise.Run(new int[]{1, 6, 4, 10, 2, 5}, 6);
+//        DoesRectanglesOverlap.Example.Run();
+//        PositionOfFirstSetBitToTheRight.Example.Run(4);
+        PrintAllPossibleStringsByIncludingSpace.Excercise.Run("ABCD");
     }
 
     static void RunDSApps(){

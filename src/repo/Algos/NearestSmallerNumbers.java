@@ -4,7 +4,7 @@ package repo.Algos;
 
 public class NearestSmallerNumbers {
 
-    public static class Execercise {
+    public static class Exercise {
 
 
         public static void Run(int[] arr, int n) {
