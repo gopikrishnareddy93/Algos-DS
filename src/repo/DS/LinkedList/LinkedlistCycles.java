@@ -4,6 +4,16 @@ import java.util.LinkedList;
 
 public class LinkedlistCycles {
 
+    public static class Node {
+        int value;
+        Node next;
+
+        public Node(int value){
+            this.value = value;
+            next = null;
+        }
+    }
+
     public static class Example{
         static Node head;
 
@@ -14,7 +24,6 @@ public class LinkedlistCycles {
             Push(2);
             Push(1);
 
-            head.next.next.next.next.next = head.next;
         }
 
         static void Push(int value){
@@ -25,11 +34,15 @@ public class LinkedlistCycles {
 
         public static void Run(){
             Initialize();
-            DetectCycle();
-
+            //DetectCycle();
+            PrintLinkedListInReverse();
         }
 
         static void DetectCycle(){
+            //create cycle
+            head.next.next.next.next.next = head.next;
+
+            // detect cycle
             Node fast = head, slow = head;
             while (slow != null && fast != null && fast.next != null){
 
@@ -46,15 +59,29 @@ public class LinkedlistCycles {
 
         }
 
-    }
+        static void PrintLinkedListInReverse(){
+            Node currentNode = head, nextNode = null, previousNode = null;
 
-    public static class Node {
-        int value;
-        Node next;
+            if (currentNode.next == null){
+                return;
+            }
 
-        public Node(int value){
-            this.value = value;
-            next = null;
+            while(currentNode != null){
+                nextNode = currentNode.next;
+                currentNode.next = previousNode;
+                previousNode = currentNode;
+                currentNode = nextNode;
+            }
+
+            head = previousNode;
+
+            currentNode = head;
+
+            while (currentNode != null){
+                System.out.print(currentNode.value + "\t");
+                currentNode = currentNode.next;
+            }
         }
+
     }
 }

@@ -3,6 +3,9 @@ package repo;
 
 import repo.Algos.*;
 import repo.DS.Array.BasicArray;
+import repo.DS.LinkedList.LinkedlistCycles;
+import repo.DS.Queue.MaxHeap;
+import repo.DS.Queue.MinHeap;
 
 public class Main {
 
@@ -19,7 +22,14 @@ public class Main {
 //        NearestSmallerNumbers.Exercise.Run(new int[]{1, 6, 4, 10, 2, 5}, 6);
 //        DoesRectanglesOverlap.Example.Run();
 //        PositionOfFirstSetBitToTheRight.Example.Run(4);
-        PrintAllPossibleStringsByIncludingSpace.Excercise.Run("ABCD");
+//        PrintAllPossibleStringsByIncludingSpace.Excercise.Run("ABCD");
+//        PermutationOfAString.Example.Run("ABC");
+//        KNearestNeighbours.Exercise.Run();
+//        FindPairOfNumbersWhoseSumIsEqualToTargetSum.Example.Run();
+//        FindAllPairOfNumbersWhoseSumIsLessThanTargetSum.Exercise.Run();
+//        FindPairOfNumbersWhoseSumIsClosestToTargetSum.Example.Run();
+//        FindLongestSubstring.Exercise.Run();
+        ShortestPathFromStartToFinishInMatrix.Exercise.Run();
     }
 
     static void RunDSApps(){
@@ -29,5 +39,7 @@ public class Main {
 //        BasicBinaryTree.Example.Run();
 //        BasicGraph.Example.Run();
 //        LinkedlistCycles.Example.Run();
+//        MinHeap.Exercise.Run();
+//        MaxHeap.Exercise.Run();
     }
 }
