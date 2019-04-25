@@ -70,6 +70,9 @@ public class BasicGraph {
             }
         }
 
+        // stack to keep track of nodes being visited
+        // Queue is to keep track of other unvisited nodes at the same level
+
         static void PrintDFS(int start){
             Set<Integer> visited = new HashSet<>();
             Stack<Integer> CurrentNodesBeingVisited = new Stack<>();

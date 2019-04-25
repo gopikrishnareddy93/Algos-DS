@@ -1,4 +1,4 @@
-package repo.Stack;
+package repo.DS.Stack;
 
 
 // Interesting functions --  empty, peek, pop, push, search

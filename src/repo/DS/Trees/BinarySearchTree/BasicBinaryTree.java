@@ -1,8 +1,12 @@
-package repo.Trees.BinarySearchTree;
+package repo.DS.Trees.BinarySearchTree;
 
 // Useful links :
 // 1. https://www.geeksforgeeks.org/binary-tree-set-1-introduction/
 // 2. https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 public class BasicBinaryTree {
 
@@ -99,6 +103,43 @@ public class BasicBinaryTree {
             }
 
             return 1 + Math.max(GetTreeDepth(node.left), GetTreeDepth(node.right));
+        }
+
+
+        Set<Set<Character>>  permute(Set<Character> c, int k){
+
+            return permuteCollection(new HashSet<>(), k, c);
+        }
+
+        Set<Set<Character>>  permuteCollection(Set<Character> input, int k, Set<Character> remainingNodes){
+
+            if (input.size() == k){
+                Set<Set<Character>> result = new HashSet<>();
+                result.add(input);
+                return result;
+            }
+
+            HashSet<Character> visitedNodes = new HashSet<Character>();
+
+            for (Character element: remainingNodes) {
+
+                if (remainingNodes.size() == k){
+                    Set<Set<Character>> result = new HashSet<>();
+                    result.add(input);
+                    return result;
+                }
+
+                Set<Character> newInputStream = input.stream().collect(Collectors.toSet());
+                newInputStream.add(element);
+
+                remainingNodes.stream().collect(Collectors.toSet());
+                newInputStream.remove(element);
+
+                permuteCollection(newInputStream,k, remainingNodes);
+
+                visitedNodes.add(element);
+
+            }
         }
 
     }

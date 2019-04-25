@@ -1,4 +1,4 @@
-package repo.Queue;
+package repo.DS.Queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
