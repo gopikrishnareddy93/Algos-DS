@@ -4,7 +4,7 @@ package repo.Algos;
 // time and space efficient         : https://www.geeksforgeeks.org/longest-palindromic-substring-set-2/
 // Longest Palindromic Subsequence  : https://www.geeksforgeeks.org/longest-palindromic-subsequence-dp-12/
 
-public class FindLongestSubstring {
+public class FindLongestPalindromicSubstring {
     public static class Exercise {
         static String input;
 
