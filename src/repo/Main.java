@@ -40,14 +40,16 @@ public class Main {
 //        PrintAllPossibleCombinationsOfLengthK.Excercise.Run();
 //        MostCommonWordInAParagraph.Exercise.Run();
 //        PrisonCellsAfterNDays.Exercise.Run();
-        FindMedianFromDataStream.Exercise.Run();
+        // FindMedianFromDataStream.Exercise.Run();
+        SubArrayWithGivenSum.Exercise.Run();
+
     }
 
     static void RunDSApps(){
 //        BasicArray.Example.Run();
-//        BasicStack.Example.Run();
-//        BasicQueue.Example.Run();
-//        BasicBinaryTree.Example.Run();
+//        repo.Stack.BasicStack.Example.Run();
+//        repo.Queue.BasicQueue.Example.Run();
+//        repo.Trees.BinarySearchTree.BasicBinaryTree.Example.Run();
 //        BasicGraph.Example.Run();
 //        LinkedlistCycles.Example.Run();
 //        MinHeap.Exercise.Run();
