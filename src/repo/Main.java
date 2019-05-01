@@ -13,6 +13,7 @@ import repo.DS.Queue.MaxHeap;
 import repo.DS.Queue.MinHeap;
 import repo.DS.Stack.BasicStack;
 import repo.DS.Trees.BinarySearchTree.BasicBinaryTree;
+import repo.DS.Trees.BinarySearchTree.BinaryTreeSerializeAndDeserialize;
 
 public class Main {
 
@@ -43,6 +44,8 @@ public class Main {
 //        PrisonCellsAfterNDays.Exercise.Run();
 //         FindMedianFromDataStream.Exercise.Run();
 //        SubArrayWithGivenSum.Exercise.Run();
+//        FindPartitionLabelsInAString.Exercise.Run();
+//        FindTheNumberOfWaterDropsListCanHold.Exercise.Run();
 
     }
 
@@ -59,6 +62,7 @@ public class Main {
 //        FindPairOfNumberWhoseSumMatchesTargetValueFromLeft.Exercise.Run();
 //        FindPairOfNumberWhoseSumMatchesTargetValueFromRight.Exercise.Run();
 //        LinkedListDeepClone.Exercise.Run();
-        LinkedListMergeTwoSortedLists.Exercise.Run();
+//        LinkedListMergeTwoSortedLists.Exercise.Run();
+        BinaryTreeSerializeAndDeserialize.Exercise.Run();
     }
 }
