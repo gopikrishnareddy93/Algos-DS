@@ -39,7 +39,7 @@ public class Main {
 //        FindLongestSubstring.Exercise.Run();
 //        ShortestPathFromStartToFinishInMatrix.Exercise.Run();
 //        NumberOfIslands.Exercise.Run();
-//        PrintAllPossibleCombinationsOfLengthK.Excercise.Run();
+        PrintAllPossibleCombinationsOfLengthK.Excercise.Run();
 //        MostCommonWordInAParagraph.Exercise.Run();
 //        PrisonCellsAfterNDays.Exercise.Run();
 //         FindMedianFromDataStream.Exercise.Run();
@@ -63,6 +63,6 @@ public class Main {
 //        FindPairOfNumberWhoseSumMatchesTargetValueFromRight.Exercise.Run();
 //        LinkedListDeepClone.Exercise.Run();
 //        LinkedListMergeTwoSortedLists.Exercise.Run();
-        BinaryTreeSerializeAndDeserialize.Exercise.Run();
+//        BinaryTreeSerializeAndDeserialize.Exercise.Run();
     }
 }
