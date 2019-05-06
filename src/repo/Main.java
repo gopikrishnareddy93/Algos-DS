@@ -4,16 +4,14 @@ package repo;
 import repo.Algos.*;
 import repo.DS.Array.BasicArray;
 import repo.DS.Graph.Directed.Graph.BasicGraph;
-import repo.DS.LinkedList.AddTwoNumbersLinkedList;
-import repo.DS.LinkedList.LinkedListDeepClone;
-import repo.DS.LinkedList.LinkedListMergeTwoSortedLists;
-import repo.DS.LinkedList.LinkedlistCycles;
+import repo.DS.LinkedList.*;
 import repo.DS.Queue.BasicQueue;
 import repo.DS.Queue.MaxHeap;
 import repo.DS.Queue.MinHeap;
 import repo.DS.Stack.BasicStack;
 import repo.DS.Trees.BinarySearchTree.BasicBinaryTree;
 import repo.DS.Trees.BinarySearchTree.BinaryTreeSerializeAndDeserialize;
+import repo.DS.Trees.BinarySearchTree.CheckIfOneBinaryTreeIsSubtreeOfOther;
 
 public class Main {
 
@@ -39,13 +37,14 @@ public class Main {
 //        FindLongestSubstring.Exercise.Run();
 //        ShortestPathFromStartToFinishInMatrix.Exercise.Run();
 //        NumberOfIslands.Exercise.Run();
-        PrintAllPossibleCombinationsOfLengthK.Excercise.Run();
+//        PrintAllPossibleCombinationsOfLengthK.Excercise.Run();
 //        MostCommonWordInAParagraph.Exercise.Run();
 //        PrisonCellsAfterNDays.Exercise.Run();
 //         FindMedianFromDataStream.Exercise.Run();
 //        SubArrayWithGivenSum.Exercise.Run();
 //        FindPartitionLabelsInAString.Exercise.Run();
 //        FindTheNumberOfWaterDropsListCanHold.Exercise.Run();
+        ExpressionEvaluator.Exercise.Run();
 
     }
 
@@ -64,5 +63,9 @@ public class Main {
 //        LinkedListDeepClone.Exercise.Run();
 //        LinkedListMergeTwoSortedLists.Exercise.Run();
 //        BinaryTreeSerializeAndDeserialize.Exercise.Run();
+//        MergeTwoSortedLinkedLists.Exercise.Run();
+
+//        CheckIfOneBinaryTreeIsSubtreeOfOther.Exercise.Run();
+
     }
 }
