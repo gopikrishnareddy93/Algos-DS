@@ -39,13 +39,15 @@ public class Main {
 //        FindLongestSubstring.Exercise.Run();
 //        ShortestPathFromStartToFinishInMatrix.Exercise.Run();
 //        NumberOfIslands.Exercise.Run();
-        PrintAllPossibleCombinationsOfLengthK.Excercise.Run();
+//        PrintAllPossibleCombinationsOfLengthK.Excercise.Run();
 //        MostCommonWordInAParagraph.Exercise.Run();
 //        PrisonCellsAfterNDays.Exercise.Run();
 //         FindMedianFromDataStream.Exercise.Run();
 //        SubArrayWithGivenSum.Exercise.Run();
 //        FindPartitionLabelsInAString.Exercise.Run();
 //        FindTheNumberOfWaterDropsListCanHold.Exercise.Run();
+//        FindLongestSubstringWithoutRepeatingCharacters.Exercise.Run();
+        FindNumberOfMeetingRoomsRequired.Exercise.Run();
 
     }
 
