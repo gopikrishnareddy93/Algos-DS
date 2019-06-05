@@ -1,4 +1,4 @@
-package repo.DS.Graph.Directed.Graph;
+package repo.DS.Graph.Directed;
 
 
 import java.util.*;
