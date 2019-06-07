@@ -5,6 +5,17 @@ import repo.Algos.*;
 import repo.DS.Graph.Directed.TopologicalSorting;
 import repo.DS.Graph.UnDirected.CycleDetection;
 import repo.DS.Graph.UnDirected.GraphTraversal;
+import repo.DS.Array.BasicArray;
+//import repo.DS.Graph.Directed.Graph.BasicGraph;
+import repo.DS.Graph.Undirected.Graph.PrintPathBetweenTwoNodes;
+import repo.DS.LinkedList.*;
+import repo.DS.Queue.BasicQueue;
+import repo.DS.Queue.MaxHeap;
+import repo.DS.Queue.MinHeap;
+import repo.DS.Stack.BasicStack;
+import repo.DS.Trees.BinarySearchTree.BasicBinaryTree;
+import repo.DS.Trees.BinarySearchTree.BinaryTreeSerializeAndDeserialize;
+import repo.DS.Trees.BinarySearchTree.CheckIfOneBinaryTreeIsSubtreeOfOther;
 
 public class Main {
 
@@ -42,8 +53,10 @@ public class Main {
         // ExpressionEvaluator.Exercise.Run();
         // SubArrayWithGivenSum.Exercise.Run();
         //SubArrayWithGivenSum.Exercise.Run();
+//        ExpressionEvaluator.Exercise.Run();
+//        LongestSubsequenceMatchingPattern.Exercise.Run();
+        FindAllNumberSumLessThanTargetValue.Exercise.Run();
 
-        BackTracking.Exercise.Run();
     }
 
     static void RunDSApps(){
@@ -67,6 +80,7 @@ public class Main {
 //        CycleDetection.Exercise.Run();
 
 //        TopologicalSorting.Exercise.Run();
+//        PrintPathBetweenTwoNodes.Exercise.Run();
 
     }
 }

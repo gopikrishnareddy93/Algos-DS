@@ -57,7 +57,7 @@ public class CheckIfOneBinaryTreeIsSubtreeOfOther {
 
     }
 
-    public static class Node{
+    private static class Node{
         int val;
         Node left, right;
 

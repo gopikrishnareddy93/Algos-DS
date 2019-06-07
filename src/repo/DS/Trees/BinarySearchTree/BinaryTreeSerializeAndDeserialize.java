@@ -69,7 +69,7 @@ public class BinaryTreeSerializeAndDeserialize {
         }
     }
 
-    public static class TreeNode {
+    private static class TreeNode {
         public String val;
         public TreeNode left;
         public TreeNode right;
