@@ -13,9 +13,9 @@ import repo.DS.Queue.BasicQueue;
 import repo.DS.Queue.MaxHeap;
 import repo.DS.Queue.MinHeap;
 import repo.DS.Stack.BasicStack;
-import repo.DS.Trees.BinarySearchTree.BasicBinaryTree;
 import repo.DS.Trees.BinarySearchTree.BinaryTreeSerializeAndDeserialize;
 import repo.DS.Trees.BinarySearchTree.CheckIfOneBinaryTreeIsSubtreeOfOther;
+import repo.DS.Trees.RegularTree.CheckIfTwoTreesAreEqual;
 
 public class Main {
 
@@ -49,13 +49,16 @@ public class Main {
 //        FindPartitionLabelsInAString.Exercise.Run();
 //        FindTheNumberOfWaterDropsListCanHold.Exercise.Run();
 //        FindLongestSubstringWithoutRepeatingCharacters.Exercise.Run();
-        // FindNumberOfMeetingRoomsRequired.Exercise.Run();
-        // ExpressionEvaluator.Exercise.Run();
-        // SubArrayWithGivenSum.Exercise.Run();
-        //SubArrayWithGivenSum.Exercise.Run();
+//         FindNumberOfMeetingRoomsRequired.Exercise.Run();
+//         ExpressionEvaluator.Exercise.Run();
+//         SubArrayWithGivenSum.Exercise.Run();
+//        SubArrayWithGivenSum.Exercise.Run();
 //        ExpressionEvaluator.Exercise.Run();
 //        LongestSubsequenceMatchingPattern.Exercise.Run();
-        FindAllNumberSumLessThanTargetValue.Exercise.Run();
+//        FindAllNumberSumLessThanTargetValue.Exercise.Run();
+//        ListDiffarence.Exercise.Run();
+//        ReverseWordsInAString.Exercise.Run();
+        CheckIfTwoTreesAreEqual.Exercise.Run();
 
     }
 
@@ -63,7 +66,6 @@ public class Main {
 //        BasicArray.Example.Run();
 //        repo.Stack.BasicStack.Example.Run();
 //        repo.Queue.BasicQueue.Example.Run();
-//        repo.Trees.BinarySearchTree.BasicBinaryTree.Example.Run();
 //        BasicGraph.Example.Run();
 //        LinkedlistCycles.Example.Run();
 //        MinHeap.Exercise.Run();
@@ -78,9 +80,7 @@ public class Main {
 //        CheckIfOneBinaryTreeIsSubtreeOfOther.Exercise.Run();
 //        GraphTraversal.Exercise.Run();
 //        CycleDetection.Exercise.Run();
-
 //        TopologicalSorting.Exercise.Run();
 //        PrintPathBetweenTwoNodes.Exercise.Run();
-
     }
 }
