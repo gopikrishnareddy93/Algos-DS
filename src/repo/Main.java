@@ -68,6 +68,7 @@ public class Main {
 //        EvaluatePostFixNotation.Exercise.Run();
 //        ConvertAGivenExpressionToPostFixNotation.Exercise.Run();
 //        MergeKSortedArrayLists.Exercise.Run();
+        GenerateAllPossibleCombinationsInADialPad.Exercise.Run();
     }
 
     static void RunDSApps(){
@@ -91,6 +92,6 @@ public class Main {
 //        TopologicalSorting.Exercise.Run();
 //        PrintPathBetweenTwoNodes.Exercise.Run();
 //        CopyTwoListsWithRandomPointer.Exercise.Run();
-        SpiralMatrix.Exercise.Run();
+//        SpiralMatrix.Exercise.Run();
     }
 }
