@@ -9,6 +9,7 @@ import repo.DS.Array.BasicArray;
 //import repo.DS.Graph.Directed.Graph.BasicGraph;
 import repo.DS.Graph.Undirected.Graph.PrintPathBetweenTwoNodes;
 import repo.DS.LinkedList.*;
+import repo.DS.Matrix.SpiralMatrix;
 import repo.DS.Queue.BasicQueue;
 import repo.DS.Queue.MaxHeap;
 import repo.DS.Queue.MinHeap;
@@ -58,8 +59,15 @@ public class Main {
 //        FindAllNumberSumLessThanTargetValue.Exercise.Run();
 //        ListDiffarence.Exercise.Run();
 //        ReverseWordsInAString.Exercise.Run();
-        CheckIfTwoTreesAreEqual.Exercise.Run();
-
+//        CheckIfTwoTreesAreEqual.Exercise.Run();
+//         FindNumberOfMeetingRoomsRequired.Exercise.Run();
+//         ExpressionEvaluator.Exercise.Run();
+//         SubArrayWithGivenSum.Exercise.Run();
+//        SubArrayWithGivenSum.Exercise.Run();
+//        BackTracking.Exercise.Run();
+//        EvaluatePostFixNotation.Exercise.Run();
+//        ConvertAGivenExpressionToPostFixNotation.Exercise.Run();
+//        MergeKSortedArrayLists.Exercise.Run();
     }
 
     static void RunDSApps(){
@@ -82,5 +90,7 @@ public class Main {
 //        CycleDetection.Exercise.Run();
 //        TopologicalSorting.Exercise.Run();
 //        PrintPathBetweenTwoNodes.Exercise.Run();
+//        CopyTwoListsWithRandomPointer.Exercise.Run();
+        SpiralMatrix.Exercise.Run();
     }
 }

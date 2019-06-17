@@ -1,7 +1,5 @@
 package repo.DS.LinkedList;
 
-import org.omg.CORBA.INITIALIZE;
-
 public class AddTwoNumbersLinkedList {
 
     public static class Example {
