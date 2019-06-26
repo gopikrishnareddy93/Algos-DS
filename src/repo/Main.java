@@ -17,6 +17,7 @@ import repo.DS.Stack.BasicStack;
 import repo.DS.Trees.BinarySearchTree.BinaryTreeSerializeAndDeserialize;
 import repo.DS.Trees.BinarySearchTree.CheckIfOneBinaryTreeIsSubtreeOfOther;
 import repo.DS.Trees.RegularTree.CheckIfTwoTreesAreEqual;
+import repo.DS.Trie.WordSearchII;
 
 public class Main {
 
@@ -50,6 +51,7 @@ public class Main {
 //        FindPartitionLabelsInAString.Exercise.Run();
 //        FindTheNumberOfWaterDropsListCanHold.Exercise.Run();
 //        FindLongestSubstringWithoutRepeatingCharacters.Exercise.Run();
+<<<<<<< Updated upstream
 //         FindNumberOfMeetingRoomsRequired.Exercise.Run();
 //         ExpressionEvaluator.Exercise.Run();
 //         SubArrayWithGivenSum.Exercise.Run();
@@ -68,7 +70,17 @@ public class Main {
 //        EvaluatePostFixNotation.Exercise.Run();
 //        ConvertAGivenExpressionToPostFixNotation.Exercise.Run();
 //        MergeKSortedArrayLists.Exercise.Run();
-        GenerateAllPossibleCombinationsInADialPad.Exercise.Run();
+//        GenerateAllPossibleCombinationsInADialPad.Exercise.Run();
+//        Playground.Exercise.Run();
+=======
+        // FindNumberOfMeetingRoomsRequired.Exercise.Run();
+        // ExpressionEvaluator.Exercise.Run();
+        // SubArrayWithGivenSum.Exercise.Run();
+        //SubArrayWithGivenSum.Exercise.Run();
+        //BackTracking.Exercise.Run();
+//        EvaluatePostFixNotation.Exercise.Run();
+//        ConvertAGivenExpressionToPostFixNotation.Exercise.Run();
+>>>>>>> Stashed changes
     }
 
     static void RunDSApps(){
@@ -93,5 +105,6 @@ public class Main {
 //        PrintPathBetweenTwoNodes.Exercise.Run();
 //        CopyTwoListsWithRandomPointer.Exercise.Run();
 //        SpiralMatrix.Exercise.Run();
+        WordSearchII.Exercise.Run();
     }
 }
