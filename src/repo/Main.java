@@ -51,7 +51,6 @@ public class Main {
 //        FindPartitionLabelsInAString.Exercise.Run();
 //        FindTheNumberOfWaterDropsListCanHold.Exercise.Run();
 //        FindLongestSubstringWithoutRepeatingCharacters.Exercise.Run();
-<<<<<<< Updated upstream
 //         FindNumberOfMeetingRoomsRequired.Exercise.Run();
 //         ExpressionEvaluator.Exercise.Run();
 //         SubArrayWithGivenSum.Exercise.Run();
@@ -72,7 +71,6 @@ public class Main {
 //        MergeKSortedArrayLists.Exercise.Run();
 //        GenerateAllPossibleCombinationsInADialPad.Exercise.Run();
 //        Playground.Exercise.Run();
-=======
         // FindNumberOfMeetingRoomsRequired.Exercise.Run();
         // ExpressionEvaluator.Exercise.Run();
         // SubArrayWithGivenSum.Exercise.Run();
@@ -80,7 +78,8 @@ public class Main {
         //BackTracking.Exercise.Run();
 //        EvaluatePostFixNotation.Exercise.Run();
 //        ConvertAGivenExpressionToPostFixNotation.Exercise.Run();
->>>>>>> Stashed changes
+        EncodeStringWIthShortestLength.Exercise.Run();
+
     }
 
     static void RunDSApps(){
@@ -105,6 +104,6 @@ public class Main {
 //        PrintPathBetweenTwoNodes.Exercise.Run();
 //        CopyTwoListsWithRandomPointer.Exercise.Run();
 //        SpiralMatrix.Exercise.Run();
-        WordSearchII.Exercise.Run();
+//        WordSearchII.Exercise.Run();
     }
 }
