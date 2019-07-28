@@ -12,8 +12,16 @@ public class Playground {
 
         public static void Run(){
             initialize();
-            numberOfPatterns(4,6);
+            //numberOfPatterns(4,6);
+
+
+
         }
+
+
+
+
+
 
         static int numberOfPatterns(int m, int n) {
             jumps = new int[10][10];
