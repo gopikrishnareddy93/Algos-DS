@@ -2,6 +2,7 @@ package repo;
 
 
 import repo.Algos.*;
+import repo.Algos.BinarySearch.BinarySearch;
 import repo.DS.Graph.Directed.TopologicalSorting;
 import repo.DS.Graph.UnDirected.CycleDetection;
 import repo.DS.Graph.UnDirected.GraphTraversal;
@@ -78,8 +79,12 @@ public class Main {
         //BackTracking.Exercise.Run();
 //        EvaluatePostFixNotation.Exercise.Run();
 //        ConvertAGivenExpressionToPostFixNotation.Exercise.Run();
-        EncodeStringWIthShortestLength.Exercise.Run();
+//        EncodeStringWIthShortestLength.Exercise.Run();
 
+        BinarySearch.Exercise.Run();
+
+
+//        Playground.Exercise.Run();
     }
 
     static void RunDSApps(){

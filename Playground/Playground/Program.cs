@@ -6,7 +6,9 @@ namespace Playground
     {
         static void Main(string[] args)
         {
+            Practice.Run();
             Console.WriteLine("Hello World!");
+            Console.ReadKey();
         }
     }
 }

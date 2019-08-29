@@ -1,5 +1,8 @@
 package repo.Algos;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class Playground {
 
     public static class Exercise{
@@ -14,13 +17,51 @@ public class Playground {
             initialize();
             //numberOfPatterns(4,6);
 
+            test();
 
 
         }
 
 
+        private static void test2(){
+            String[] versions = new String[]{"236 cat dog rabbit", "1.1.1", "1.2.1", "1.1.3", "1.1.2"};
+
+        }
 
 
+
+        private static void test(){
+            String[] versions = new String[]{"1.20.0", "1.1.1", "1.2.1", "1.1.3", "1.1.2"};
+
+            Comparator<String> customComparator = new Comparator<String>(){
+                @Override
+                public int compare(String v1, String v2){
+
+
+                    String[] v1Array = v1.split("\\.");
+                    String[] v2Array = v2.split("\\.");
+
+
+                    if (!v1Array[0].equals(v2Array[0])){
+                        return v1Array[0].compareTo(v2Array[0]);
+                    }
+
+                    if (!v1Array[1].equals(v2Array[1])){
+                        return v1Array[1].compareTo(v2Array[1]);
+                    }
+
+                    return v1Array[2].compareTo(v2Array[2]);
+                }
+            };
+
+            Arrays.sort(versions, customComparator);
+
+            for(String version: versions)
+            {
+                System.out.println(version);
+            }
+
+        }
 
 
         static int numberOfPatterns(int m, int n) {
