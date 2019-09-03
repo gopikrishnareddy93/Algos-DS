@@ -1,4 +1,4 @@
-package repo.Algos;
+package repo.Algos.BackTracking;
 
 import java.util.ArrayList;
 import java.util.HashMap;

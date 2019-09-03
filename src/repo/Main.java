@@ -2,6 +2,7 @@ package repo;
 
 
 import repo.Algos.*;
+import repo.Algos.BackTracking.MaxSumUsingTheGivenFormula;
 import repo.Algos.BinarySearch.BinarySearch;
 import repo.DS.Graph.Directed.TopologicalSorting;
 import repo.DS.Graph.UnDirected.CycleDetection;
@@ -80,11 +81,13 @@ public class Main {
 //        EvaluatePostFixNotation.Exercise.Run();
 //        ConvertAGivenExpressionToPostFixNotation.Exercise.Run();
 //        EncodeStringWIthShortestLength.Exercise.Run();
+//        BinarySearch.Exercise.Run();
+        MaxSumUsingTheGivenFormula.Exercise.Run();
 
-        BinarySearch.Exercise.Run();
 
 
 //        Playground.Exercise.Run();
+
     }
 
     static void RunDSApps(){
