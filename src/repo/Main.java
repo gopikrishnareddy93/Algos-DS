@@ -2,6 +2,7 @@ package repo;
 
 
 import repo.Algos.*;
+import repo.Algos.BackTracking.MaxSumUsingTheGivenFormula;
 import repo.Algos.BinarySearch.BinarySearch;
 import repo.DS.Graph.Directed.TopologicalSorting;
 import repo.DS.Graph.UnDirected.CycleDetection;
@@ -72,7 +73,7 @@ public class Main {
 //        MergeKSortedArrayLists.Exercise.Run();
 //        GenerateAllPossibleCombinationsInADialPad.Exercise.Run();
         //FindPairOfNumbersWhoseSumIsClosestToTargetSumInUnSortedArray.Example.Run();
-        Playground.Exercise.Run();
+//        Playground.Exercise.Run();
         // FindNumberOfMeetingRoomsRequired.Exercise.Run();
         // ExpressionEvaluator.Exercise.Run();
         // SubArrayWithGivenSum.Exercise.Run();
@@ -81,15 +82,12 @@ public class Main {
 //        EvaluatePostFixNotation.Exercise.Run();
 //        ConvertAGivenExpressionToPostFixNotation.Exercise.Run();
 //        EncodeStringWIthShortestLength.Exercise.Run();
-<<<<<<< Updated upstream
-=======
+
 //        SortSquaresOfSortedNumbers.Exercise.Run();
->>>>>>> Stashed changes
-
-        BinarySearch.Exercise.Run();
-
-
+//        BinarySearch.Exercise.Run();
+//        MaxSumUsingTheGivenFormula.Exercise.Run();
 //        Playground.Exercise.Run();
+
     }
 
     static void RunDSApps(){
