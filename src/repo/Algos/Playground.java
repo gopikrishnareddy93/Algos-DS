@@ -2,6 +2,11 @@ package repo.Algos;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 
 public class Playground {
 
@@ -19,13 +24,77 @@ public class Playground {
 
             test();
 
-
         }
 
 
         private static void test2(){
             String[] versions = new String[]{"236 cat dog rabbit", "1.1.1", "1.2.1", "1.1.3", "1.1.2"};
 
+        }
+
+        static void test1(){
+            String[] boxList = new String[]{""};
+        }
+
+        static void PrisionCellAfterNDays(){
+            int[] states = new int[]{1,0,0,0,0,1,0,0};
+            int days = 1;
+
+            List<Integer> output = new ArrayList<>();
+            List<Integer> tempList = new ArrayList<>();
+
+
+
+            for (int i : states)
+            {
+                output.add(i);
+            }
+
+
+            if (days <= 0){
+                // return output
+                return;
+            }
+
+            // WRITE YOUR CODE HERE
+            for(int i = 0; i < days; i++){
+                tempList = new ArrayList<>();
+
+                if (output.get(1) == 0){
+                    tempList.add(0);
+                }
+                else {
+                    tempList.add(1);
+                }
+
+                for (int j=1; j< states.length - 1; j++){
+
+                    if (output.get(j - 1).equals(output.get(j + 1))){
+                        tempList.add(0);
+                    }
+                    else {
+                        tempList.add(1);
+                    }
+                }
+
+                if (output.get(states.length - 2) == 0 ){
+                    tempList.add(0);
+                }
+                else {
+                    tempList.add(1);
+                }
+
+                output = tempList;
+            }
+
+            for (int num:
+                 output) {
+                System.out.print(num + "\t");
+            }
+
+
+
+            return;
         }
 
 
@@ -62,6 +131,7 @@ public class Playground {
             }
 
         }
+
 
 
         static int numberOfPatterns(int m, int n) {

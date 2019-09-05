@@ -71,7 +71,8 @@ public class Main {
 //        ConvertAGivenExpressionToPostFixNotation.Exercise.Run();
 //        MergeKSortedArrayLists.Exercise.Run();
 //        GenerateAllPossibleCombinationsInADialPad.Exercise.Run();
-//        Playground.Exercise.Run();
+        //FindPairOfNumbersWhoseSumIsClosestToTargetSumInUnSortedArray.Example.Run();
+        Playground.Exercise.Run();
         // FindNumberOfMeetingRoomsRequired.Exercise.Run();
         // ExpressionEvaluator.Exercise.Run();
         // SubArrayWithGivenSum.Exercise.Run();
@@ -80,6 +81,10 @@ public class Main {
 //        EvaluatePostFixNotation.Exercise.Run();
 //        ConvertAGivenExpressionToPostFixNotation.Exercise.Run();
 //        EncodeStringWIthShortestLength.Exercise.Run();
+<<<<<<< Updated upstream
+=======
+//        SortSquaresOfSortedNumbers.Exercise.Run();
+>>>>>>> Stashed changes
 
         BinarySearch.Exercise.Run();
 

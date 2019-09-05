@@ -2,7 +2,7 @@ package repo.Algos;
 
 //link : https://www.geeksforgeeks.org/count-pairs-array-whose-sum-less-x/
 
-public class FindPairOfNumbersWhoseSumIsClosestToTargetSum {
+public class FindPairOfNumbersWhoseSumIsClosestToTargetSumInSortedArray {
     public static class Example{
         static int[] list;
         static int targetSum;
