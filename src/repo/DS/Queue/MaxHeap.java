@@ -18,7 +18,7 @@ public class MaxHeap {
         public static void Run(){
             Initialize();
             AddELements();
-            RemoveElemenets();
+            RemoveElements();
         }
 
         static void AddELements(){
@@ -29,7 +29,7 @@ public class MaxHeap {
             minHeap.offer(40);
         }
 
-        static void RemoveElemenets(){
+        static void RemoveElements(){
             while (!minHeap.isEmpty()){
                 System.out.println(minHeap.poll());
             }

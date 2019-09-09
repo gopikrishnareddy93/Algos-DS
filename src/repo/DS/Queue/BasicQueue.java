@@ -31,7 +31,7 @@ public class BasicQueue {
             Print();
             InsertAtTheEnd();
             Print();
-            RemoveAtTheBegining();
+            RemoveAtTheBeginning();
             Print();
             PollFunction();
             Print();
@@ -55,7 +55,7 @@ public class BasicQueue {
             queue.add(32);
         }
 
-        static void RemoveAtTheBegining(){
+        static void RemoveAtTheBeginning(){
             queue.remove();
         }
 

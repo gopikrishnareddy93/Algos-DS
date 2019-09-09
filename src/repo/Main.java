@@ -1,32 +1,11 @@
 package repo;
-
-
 import repo.Algos.*;
-import repo.Algos.BackTracking.MaxSumUsingTheGivenFormula;
-import repo.Algos.BinarySearch.BinarySearch;
-import repo.DS.Graph.Directed.TopologicalSorting;
-import repo.DS.Graph.UnDirected.CycleDetection;
-import repo.DS.Graph.UnDirected.GraphTraversal;
-import repo.DS.Array.BasicArray;
-//import repo.DS.Graph.Directed.Graph.BasicGraph;
-import repo.DS.Graph.Undirected.Graph.PrintPathBetweenTwoNodes;
-import repo.DS.LinkedList.*;
-import repo.DS.Matrix.SpiralMatrix;
-import repo.DS.Queue.BasicQueue;
-import repo.DS.Queue.MaxHeap;
-import repo.DS.Queue.MinHeap;
-import repo.DS.Stack.BasicStack;
-import repo.DS.Trees.BinarySearchTree.BinaryTreeSerializeAndDeserialize;
-import repo.DS.Trees.BinarySearchTree.CheckIfOneBinaryTreeIsSubtreeOfOther;
-import repo.DS.Trees.RegularTree.CheckIfTwoTreesAreEqual;
-import repo.DS.Trie.WordSearchII;
 
 public class Main {
 
     public static void main(String[] args) {
         RunAlgosApps();
         RunDSApps();
-
     }
 
     static void RunAlgosApps(){
@@ -60,7 +39,7 @@ public class Main {
 //        ExpressionEvaluator.Exercise.Run();
 //        LongestSubsequenceMatchingPattern.Exercise.Run();
 //        FindAllNumberSumLessThanTargetValue.Exercise.Run();
-//        ListDiffarence.Exercise.Run();
+//        ListDifference.Exercise.Run();
 //        ReverseWordsInAString.Exercise.Run();
 //        CheckIfTwoTreesAreEqual.Exercise.Run();
 //         FindNumberOfMeetingRoomsRequired.Exercise.Run();
@@ -72,20 +51,28 @@ public class Main {
 //        ConvertAGivenExpressionToPostFixNotation.Exercise.Run();
 //        MergeKSortedArrayLists.Exercise.Run();
 //        GenerateAllPossibleCombinationsInADialPad.Exercise.Run();
-        //FindPairOfNumbersWhoseSumIsClosestToTargetSumInUnSortedArray.Example.Run();
-//        Playground.Exercise.Run();
-        // FindNumberOfMeetingRoomsRequired.Exercise.Run();
-        // ExpressionEvaluator.Exercise.Run();
-        // SubArrayWithGivenSum.Exercise.Run();
-        //SubArrayWithGivenSum.Exercise.Run();
-        //BackTracking.Exercise.Run();
+//        FindPairOfNumbersWhoseSumIsClosestToTargetSumInUnSortedArray.Example.Run();
+//         FindNumberOfMeetingRoomsRequired.Exercise.Run();
+//         ExpressionEvaluator.Exercise.Run();
+//         SubArrayWithGivenSum.Exercise.Run();
+//        SubArrayWithGivenSum.Exercise.Run();
+//        BackTracking.Exercise.Run();
 //        EvaluatePostFixNotation.Exercise.Run();
 //        ConvertAGivenExpressionToPostFixNotation.Exercise.Run();
 //        EncodeStringWIthShortestLength.Exercise.Run();
-
 //        SortSquaresOfSortedNumbers.Exercise.Run();
 //        BinarySearch.Exercise.Run();
 //        MaxSumUsingTheGivenFormula.Exercise.Run();
+//        FindTopKElementsInArray.Exercise.Run();
+//        FindBottomKElementsInArray.Exercise.Run();
+//        StringMultiplication.Exercise.Run();
+        WordSquares.Exercise.Run();
+
+
+
+
+
+
 //        Playground.Exercise.Run();
 
     }

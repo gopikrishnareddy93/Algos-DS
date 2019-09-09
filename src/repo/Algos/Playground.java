@@ -21,11 +21,9 @@ public class Playground {
         public static void Run(){
             initialize();
             //numberOfPatterns(4,6);
-
-            test();
+            //SortSemanticVersionNumbers();
 
         }
-
 
         private static void test2(){
             String[] versions = new String[]{"236 cat dog rabbit", "1.1.1", "1.2.1", "1.1.3", "1.1.2"};
@@ -35,7 +33,7 @@ public class Playground {
             String[] boxList = new String[]{""};
         }
 
-        static void PrisionCellAfterNDays(){
+        static void PrisonCellAfterNDays(){
             int[] states = new int[]{1,0,0,0,0,1,0,0};
             int days = 1;
 
@@ -96,10 +94,7 @@ public class Playground {
             return;
         }
 
-
-
-
-        private static void test(){
+        private static void SortSemanticVersionNumbers(){
             String[] versions = new String[]{"1.20.0", "1.1.1", "1.2.1", "1.1.3", "1.1.2"};
 
             Comparator<String> customComparator = new Comparator<String>(){
@@ -131,8 +126,6 @@ public class Playground {
             }
 
         }
-
-
 
         static int numberOfPatterns(int m, int n) {
             jumps = new int[10][10];
