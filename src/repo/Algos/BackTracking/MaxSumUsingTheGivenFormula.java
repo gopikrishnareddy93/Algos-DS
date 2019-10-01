@@ -73,10 +73,12 @@ public class MaxSumUsingTheGivenFormula {
                 return;
             }
 
+            //create new list and don't add current element
             List<List<Integer>> newTa0 = DeepClone(ta);
             newTa0.add(new ArrayList<>());
             rHelper(newTa0, ci, result);
 
+            //create new list and add current element to last list
             List<List<Integer>> newTa1 = DeepClone(ta);
             newTa1.add(new ArrayList<>());
             newTa1.get(newTa1.size() - 1).add(array[ci]);
@@ -86,6 +88,7 @@ public class MaxSumUsingTheGivenFormula {
             if (newTa2.size() == 0){
                 newTa2.add(new ArrayList<>());
             }
+            //don't add new lists just add new element to the last
             newTa2.get(newTa2.size() - 1).add(array[ci]);
             rHelper(newTa2, ci + 1, result);
         }
