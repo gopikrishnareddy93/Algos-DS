@@ -22,7 +22,44 @@ public class Playground {
             initialize();
             //numberOfPatterns(4,6);
             //SortSemanticVersionNumbers();
+            sortPanCakes();
 
+        }
+
+        public static void sortPanCakes(){
+            int[] A = {3,2,4,1};
+            List<Integer> ans = new ArrayList();
+            int N = A.length;
+
+            Integer[] B = new Integer[N];
+            for (int i = 0; i < N; ++i)
+                B[i] = i+1;
+            Arrays.sort(B, (i, j) -> A[j-1] - A[i-1]);
+
+            System.out.print("B ");
+
+            for (int num: B) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+
+            for (int i: B) {
+                for (int f: ans)
+                    if (i <= f)
+                        i = f+ 1 - i;
+                ans.add(i);
+                ans.add(N--);
+
+                for (int num: ans) {
+                    System.out.print(num + " ");
+                }
+
+                System.out.println();
+            }
+
+            for (int num: ans) {
+                System.out.print(num + " ");
+            }
         }
 
         private static void test2(){

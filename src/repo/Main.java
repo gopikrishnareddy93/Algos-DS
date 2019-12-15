@@ -66,14 +66,8 @@ public class Main {
 //        FindTopKElementsInArray.Exercise.Run();
 //        FindBottomKElementsInArray.Exercise.Run();
 //        StringMultiplication.Exercise.Run();
-        WordSquares.Exercise.Run();
-
-
-
-
-
-
-//        Playground.Exercise.Run();
+//        WordSquares.Exercise.Run();
+        Playground.Exercise.Run();
 
     }
 
